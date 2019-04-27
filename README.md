@@ -16,4 +16,6 @@ stats
 <br>
 
 Made By [Fatir](https://github.com/KurokuTetsuya)
+-------------------------------------------------
 Find Out More [about me](https://discord.gg/THcWW6T)
+===================================
