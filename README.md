@@ -4,11 +4,11 @@ Ayumi Otosaka Repo
 
 ## Available Commands :
 ```
- say
- avatar
- userinfo
- ping
- stats
+1. say
+2. avatar
+3. userinfo
+4. ping
+5. stats
 ```
 
 
@@ -19,3 +19,7 @@ Made By [Fatir](https://github.com/KurokuTetsuya)
 Find Out More about me :
 ---
 [Instagram](https://www.instagram.com/fatir_1242/)
+
+[Discord Server](https://discord.gg/THcWW6T)
+
+# Give me a star ⭐
