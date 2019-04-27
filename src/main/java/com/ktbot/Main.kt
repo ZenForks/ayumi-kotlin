@@ -23,7 +23,7 @@ object Main {
         val client = CommandClientBuilder()
                 .setEmojis("\uD83D\uDE03", "\uD83D\uDE2E", "\uD83D\uDE26")
                 .setOwnerId(Config.OWNER)
-                .setPrefix("ay!")
+                .setPrefix(Config.PREFIX)
                 .setHelpConsumer(Consumer { event: CommandEvent ->
                     val owner = event.jda.getUserById(Config.OWNER).asTag
                     val embed = EmbedBuilder()
