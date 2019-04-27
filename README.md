@@ -23,4 +23,3 @@ Made By [Fatir](https://github.com/KurokuTetsuya)
 Find Out More about me :
 ---
 [Instagram](https://www.instagram.com/fatir_1242/)
-----------
