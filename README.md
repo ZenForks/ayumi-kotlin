@@ -1,6 +1,7 @@
 Ayumi Otosaka Repo 
 ==================
-[![Build Status](https://travis-ci.com/KurokuTetsuya/ayumi-kotlin.svg?branch=master)](https://travis-ci.com/KurokuTetsuya/ayumi-kotlin) [![License](https://img.shields.io/github/license/:KurokuTetsuya/:ayumi-kotlin.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/KurokuTetsuya/ayumi-kotlin.svg?branch=master)](https://travis-ci.com/KurokuTetsuya/ayumi-kotlin)
+![GitHub](https://img.shields.io/github/license/KurokuTetsuya/ayumi-kotlin.svg?color=CYAN)
 
 ## Available Commands :
 ```
