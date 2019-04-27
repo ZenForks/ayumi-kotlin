@@ -2,7 +2,11 @@ package com.ktbot
 
 import com.jagrosh.jdautilities.command.CommandClientBuilder
 import com.jagrosh.jdautilities.command.CommandEvent
-import com.ktbot.commands.*
+import com.ktbot.commands.StatsCommand
+import com.ktbot.commands.UserInfoCommand
+import com.ktbot.commands.AvatarCommand
+import com.ktbot.commands.PingCommand
+import com.ktbot.commands.SayCommand
 import net.dv8tion.jda.core.entities.Game
 import java.awt.Color
 import java.util.function.Consumer
