@@ -7,11 +7,11 @@ Ayumi Otosaka Repo
 <summary>Core</summary>
 <br>
 ```
-say
-avatar
-userinfo
-ping
-stats
+ say
+ avatar
+ userinfo
+ ping
+ stats
 ```
 </details>
 <br>
