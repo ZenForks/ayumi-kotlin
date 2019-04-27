@@ -3,8 +3,6 @@ Ayumi Otosaka Repo
 [![Build Status](https://travis-ci.com/KurokuTetsuya/ayumi-kotlin.svg?branch=master)](https://travis-ci.com/KurokuTetsuya/ayumi-kotlin)
 
 ## Available Commands :
-<details>
-<summary>Core</summary>
 <br>
 ```
  say
@@ -13,7 +11,6 @@ Ayumi Otosaka Repo
  ping
  stats
 ```
-</details>
 <br>
 
 Made By [Fatir](https://github.com/KurokuTetsuya)
