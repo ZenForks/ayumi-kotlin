@@ -3,8 +3,6 @@ package com.ktbot
 import com.jagrosh.jdautilities.command.CommandClientBuilder
 import com.jagrosh.jdautilities.command.CommandEvent
 import com.ktbot.commands.*
-import com.ktbot.commands.music.PlayCommand
-import com.ktbot.commands.music.StopCommand
 import net.dv8tion.jda.core.entities.Game
 import java.awt.Color
 import java.util.function.Consumer
@@ -27,9 +25,7 @@ object Main {
                     val embed = EmbedBuilder()
                             .setAuthor("${event.jda.selfUser.asTag} Help List", "${event.jda.selfUser.effectiveAvatarUrl}", "${event.jda.selfUser.effectiveAvatarUrl}")
                             .setDescription("Hi **${event.author.asTag}**! My name is **${event.jda.selfUser.name}**. My prefix is `ay!`. Created by **${owner}** using kotlin language and jda library")
-                            .addField("<:os:525584598508503040> Core Commands", "`userinfo`, `stats`, `avatar`, `say`, `help`", false)
-                            .addField("Fun Commands", "", false)
-                            .addField("<a:music:525584931456417801> Music Commands", "`play`, `leave`", false)
+                            .addField("<:os:525584598508503040> Core Commands", "`userinfo`, `stats`, `avatar`, `say`, `help`", false)    
                             .setColor(Color.OPAQUE)
                             .setFooter("• Requested By ${event.author.asTag}", "${event.author.effectiveAvatarUrl}")
                     event.channel.sendMessage(embed.build()).queue()
@@ -39,8 +35,6 @@ object Main {
                         UserInfoCommand(),
                         AvatarCommand(),
                         PingCommand(),
-                        PlayCommand(),
-                        StopCommand(),
                         SayCommand(),
                         StatsCommand())
                 .setGame(Game.playing("WIP."))
