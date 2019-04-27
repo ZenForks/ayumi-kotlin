@@ -1,11 +1,11 @@
 language: java
+jdk:
+    - oraclejdk8
 before_install: 
     - sudo apt-get update
-    - sudo apt-get install maven
 jobs:
   include:
-    - stage: "Compile"
-      script: ./start.sh
+    - script: mvn compile
     - script: echo "Running unit tests (1)"
     - script: echo "Running unit tests (2)"
     - stage: GitHub Release
@@ -16,5 +16,3 @@ jobs:
         skip_cleanup: true
         on:
           tags: true
-jdk:
-  - oraclejdk8
