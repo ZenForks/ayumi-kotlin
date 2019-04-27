@@ -22,4 +22,4 @@ Made By [Fatir](https://github.com/KurokuTetsuya)
 
 Find Out More about me :
 ---
-* [Instagram](https://www.instagram.com/fatir_1242/)
+[1.1]: https://i.imgur.com/rcPkXtU.png [Instagram](https://www.instagram.com/fatir_1242/)
