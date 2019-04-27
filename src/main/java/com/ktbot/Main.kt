@@ -20,12 +20,12 @@ object Main {
 
         val client = CommandClientBuilder()
                 .setEmojis("\uD83D\uDE03", "\uD83D\uDE2E", "\uD83D\uDE26")
-                .setOwnerId("327586923252285440")
+                .setOwnerId(Config.OWNER)
                 .setPrefix("ay!")
                 .setHelpConsumer(Consumer { event: CommandEvent ->
                     val owner = event.jda.getUserById(Config.OWNER).asTag
                     val embed = EmbedBuilder()
-                            .setAuthor("" + event.jda.selfUser.asTag + " Help List", "${event.jda.selfUser.effectiveAvatarUrl}", "${event.jda.selfUser.effectiveAvatarUrl}")
+                            .setAuthor("${event.jda.selfUser.asTag} Help List", "${event.jda.selfUser.effectiveAvatarUrl}", "${event.jda.selfUser.effectiveAvatarUrl}")
                             .setDescription("Hi **${event.author.asTag}**! My name is **${event.jda.selfUser.name}**. My prefix is `ay!`. Created by **${owner}** using kotlin language and jda library")
                             .addField("<:os:525584598508503040> Core Commands", "`userinfo`, `stats`, `avatar`, `say`, `help`", false)
                             .addField("Fun Commands", "", false)
